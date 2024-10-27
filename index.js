@@ -267,7 +267,7 @@ async function postAd(sending, receiving) {
   });
   setTimeout(function () {
     getValues();
-  }, 1560000); //you can change this timeout to every 24 mins. I did 26 mins so it doesnt overlap. Time is in milliseconds
+  }, 900000); //you can change this timeout to every 24 mins. I did 26 mins so it doesnt overlap. Time is in milliseconds
 }
 
 getValues(); //calls values function, script will start from here

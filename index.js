@@ -9,8 +9,6 @@ Please don't spam unrealistic trades lowering the trade quality, it doesnt help 
 var app = require("express")() //this is for hosting the api and putting it on uptimerobot. This helps if your server provider is bad and you want your bot to stay up.
 app.use(require("body-parser").json())
 
-const dotenv = require('dotenv') //used for reading the sercret from env. Since some hosting providers require you to have it public, this provides a safe environment keeping everything safe.
-dotenv.config()
 
 const fetch = require("node-fetch");
 
